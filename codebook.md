@@ -10,9 +10,9 @@ were averaged for each activity/subject pair. 't' indicates a timeseries signal 
 Mean and std for the following measurements are found.  
 tBodyAcc- Body acceleration- timeseries data  
 tGravityAcc- Gravitational acceleration- timeseries data  
-tBodyAccJerk- Body 'jerk' acceleration- timeseries data  
-tBodyGyro- Body gyroscopic movement
-tBodyGyroJerk- Body gyroscopic 'jerk' movement
-fBodyAcc- frequency of body acceleration
-fBodyAccJerk- frequency of body 'jerk' acceleration
-fBodyGyro- frequency of body gyroscopic movement
+tBodyAccJerk- Body 'jerk' acceleration- timeseries data   
+tBodyGyro- Body gyroscopic movement  
+tBodyGyroJerk- Body gyroscopic 'jerk' movement  
+fBodyAcc- frequency of body acceleration  
+fBodyAccJerk- frequency of body 'jerk' acceleration  
+fBodyGyro- frequency of body gyroscopic movement  

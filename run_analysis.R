@@ -15,7 +15,7 @@ x.test <- read.table("UCI HAR Dataset/test/X_test.txt", col.names=features.list)
 table1 <- tbl_df(cbind(rbind(subject.test,subject.train), rbind(y.test, y.train), rbind(x.test,x.train)))
 
 #extract variables of interest
-cols <- grep("(mean\\(\\)\\-[XYZ])|(std\\(\\)\\-[XYZ])",features.list)
+cols <- grep("mean|std",features.list)
 table2 <- select(table1, cols+2)
 
 #rename activity variable entries

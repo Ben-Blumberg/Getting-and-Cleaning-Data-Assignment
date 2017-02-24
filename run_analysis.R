@@ -16,7 +16,7 @@ table1 <- tbl_df(cbind(rbind(subject.test,subject.train), rbind(y.test, y.train)
 
 #extract variables of interest
 cols <- grep("(mean\\(\\)\\-[XYZ])|(std\\(\\)\\-[XYZ])",features.list)
-table2 <- select(table1, cols)
+table2 <- select(table1, cols+2)
 
 #rename activity variable entries
 table2$activity <- sapply(table2$activity, 

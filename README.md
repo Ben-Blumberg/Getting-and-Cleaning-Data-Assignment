@@ -6,11 +6,11 @@ The script extracts the data from txt files using read.table, and gives the data
 ## Code book
 The mean recording of the mean and standard deviation for the following X,Y,Z variables are made for each activity/subject pair. t indicates a timeseries signal while f indicates a frequency series signal
 
-tBodyAcc-XYZ
-tGravityAcc-XYZ
-tBodyAccJerk-XYZ
-tBodyGyro-XYZ
-tBodyGyroJerk-XYZ
-fBodyAcc-XYZ
-fBodyAccJerk-XYZ
-fBodyGyro-XYZ
+tBodyAcc-XYZ  
+tGravityAcc-XYZ  
+tBodyAccJerk-XYZ  
+tBodyGyro-XYZ  
+tBodyGyroJerk-XYZ  
+fBodyAcc-XYZ  
+fBodyAccJerk-XYZ  
+fBodyGyro-XYZ  
